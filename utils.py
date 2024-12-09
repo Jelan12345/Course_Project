@@ -30,7 +30,8 @@ TOURNAMENTS=['Italy','England','Germany', 'France',
              'Spain', 'European_Championship','World_Cup']
 
 data_folder='data/'
-def load_public_dataset(data_folder=data_folder, tournament='Italy'):
+def load_public_dataset(data_folder=data_folder, tournament='England'):
+
     """
     Load the json files with the matches, events, players and competitions
     
@@ -235,4 +236,5 @@ def data_download():
     z.extractall("data/events")
     
     print ("Download completed")
+
 

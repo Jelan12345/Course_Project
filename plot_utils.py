@@ -8,7 +8,7 @@ import numpy as np
 from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
 import plotly.graph_objs as go
 
-data_folder = '/data/'
+data_folder = 'data/'
 tags_names_df = pd.read_csv(data_folder + 'tags2name.csv')
 
 def pitch():
